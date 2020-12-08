@@ -11,7 +11,7 @@ function Result() {
       </div>
       <div className="sm:grid grid-cols-2 gap-4 px-2 py-2 mb-3">
         <div className="border border-red-300 rounded shadow-md p-3 text-gray-600 mb-2">
-          <span className="font-bold">Day:</span>{" "}
+          <span className="font-bold">Per Day:</span>{" "}
           <span className="font-medium text-gray-500">
             {Object.keys(costs).length !== 0
               ? "P " + costs.usagePerDay
@@ -19,7 +19,7 @@ function Result() {
           </span>
         </div>
         <div className="border border-red-300 rounded shadow-md p-3 text-gray-600 mb-2">
-          <span className="font-bold">Month:</span>{" "}
+          <span className="font-bold">Per Month:</span>{" "}
           <span className="font-medium text-gray-500">
             {Object.keys(costs).length !== 0
               ? "P " + costs.usagePerMonth
@@ -27,7 +27,7 @@ function Result() {
           </span>
         </div>
         <div className="border border-red-300 rounded shadow-md p-3 text-gray-600 mb-2">
-          <span className="font-bold">Year:</span>{" "}
+          <span className="font-bold">Per Year:</span>{" "}
           <span className="font-medium text-gray-500">
             {Object.keys(costs).length !== 0
               ? "P " + costs.usagePerYear
